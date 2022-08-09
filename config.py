@@ -19,11 +19,11 @@ TOKEN = os.getenv("5509535105:AAHRRi4KpRlPVDXw4xlvKkEMRjRpdBD9ZPo")
 USERNAME = os.getenv("gym_kzmetk_akssuar")
 PASSWORD = os.getenv("enes.2112")
 
-WEBHOOK_URL = os.getenv("8b85c6e8-d393-40de-a713-c14cf4b3ce04")
+WEBHOOK_URL = os.getenv("WEBHOOK_URL")
 
 bot = telebot.TeleBot(TOKEN, threaded=True)
 
-client = Client("gym_kzmetk_akssuar", "enes.2112")
+client = Client(USERNAME, PASSWORD)
 
 ADMIN_ID = os.getenv("2122568291")
 GROUP_ID = os.getenv("-686372494")
